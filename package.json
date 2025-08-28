@@ -9,7 +9,12 @@
     "deploy:sepolia": "npx hardhat run scripts/deploy.js --network sepolia",
     "clean": "npx hardhat clean"
   },
-  "keywords": ["ethereum", "solidity", "smart-contract", "hardhat"],
+  "keywords": [
+    "ethereum",
+    "solidity",
+    "smart-contract",
+    "hardhat"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
@@ -18,5 +23,6 @@
   },
   "dependencies": {
     "dotenv": "^17.2.1"
-  }
+  },
+  "type": "module"
 }
